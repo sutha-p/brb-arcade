@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy - BRB Arcade</title>
+  <meta name="description" content="The BRB Arcade privacy policy. No data collected, no tracking.">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+  <link rel="canonical" href="https://sutha-p.github.io/brb-arcade/privacy.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="https://sutha-p.github.io/brb-arcade/"><img src="favicon.png" alt="" width="32" height="32">BRB Arcade</a>
+      <nav class="site-nav" aria-label="Site">
+        <a href="https://sutha-p.github.io/brb-arcade/">Home</a>
+        <a href="https://sutha-p.github.io/brb-arcade/privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Keep the text inside <main> the same as extension/privacy.html (npm run validate checks it). -->
+  <main id="main" class="page policy">
+    <h1>BRB Arcade privacy policy</h1>
+    <p class="muted">Last updated 24 November 2026</p>
+
+    <p>BRB Arcade does not collect, sell or share any personal data. Nothing you do in the extension is ever sent to us. The only thing that can leave your device is your settings, and only to your own Google account through Chrome sync (see below).</p>
+
+    <h2>What is stored, and where</h2>
+    <p>The extension keeps a small amount of data in Chrome's extension storage on your own computer:</p>
+    <ul>
+      <li>Your settings: the auto-start countdown, how the timer is shown (Calm, Always show time, or Hidden until the last minute), which reminders you get (halfway and last minute, last minute only, or off), whether reminders play a chime, whether the end of a break plays a chime, whether games play sound effects, and whether "Break's over" may offer "+2 more minutes" (Strict, Medium or Lenient).</li>
+      <li>Your favourite game and the last game you played, used to pick the game that starts automatically.</li>
+      <li>The current break: its length, start and end time, the times of its reminders and which ones have been shown, how many times it was extended and when, and the internal IDs of the tab and window you started it from and of the Break tab, so it can take you back.</li>
+      <li>Game progress: levels unlocked and finished, stars, best scores, times and streaks, how many times each game was played, saved boards you can continue, the snacks you have collected in Snack Drop, and the date you last solved Calendar Fit's daily puzzle (to count your daily streak).</li>
+      <li>Two small housekeeping values: that the welcome page has been shown, and the installed version number (so the extension knows when it has been updated).</li>
+    </ul>
+    <p>While Chrome is open, the extension also keeps one temporary flag in Chrome's session storage to tell a browser restart from a normal wake-up. Chrome clears it when it closes.</p>
+    <h2>Settings sync</h2>
+    <p>Your settings (the first item above, and nothing else) are also saved in Chrome's sync storage, with the time they were last changed. If you are signed in to Chrome with sync turned on, Chrome copies them between your own Chrome browsers through your Google account, so the extension works the same way on each of your computers. This is Chrome's own sync, covered by Google's privacy policy; nothing is sent to us, and we cannot see it. If Chrome sync is off, the settings stay on this computer.</p>
+    <p>Your favourite game, the last game you played, the current break and all game progress are never synced. Progress stays on the device where you played.</p>
+
+    <p>Apart from settings sync, this data is never sent anywhere. Uninstalling the extension deletes it from this computer (synced settings are removed by Chrome when you clear your synced data). You can also reset game progress at any time in Settings.</p>
+
+    <h2>What is not collected</h2>
+    <p>No accounts, no analytics, no tracking, no ads, and no network requests. The extension cannot read the pages you visit or their titles or addresses. All games and sounds are bundled with the extension and work offline.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>storage</strong>: to save the settings and progress listed above on your device, and to let Chrome sync your settings between your own browsers.</li>
+      <li><strong>alarms</strong>: to end your break on time even if Chrome puts the extension to sleep.</li>
+      <li><strong>notifications</strong>: to tell you a break is ending when you are on another tab.</li>
+    </ul>
+
+    <h2>Links</h2>
+    <p>If you choose to follow the optional "Support BRB Arcade" link, it opens a third-party donation page in a new tab. That site has its own privacy policy. The extension shares nothing with it.</p>
+    <p>When you uninstall the extension, Chrome may open a short "Sorry to see you go" page on the BRB Arcade website. The extension sends nothing to it, and the page has no trackers. It links to an optional feedback form on Google Forms; answering is up to you, and that form is covered by Google's privacy policy.</p>
+
+    <h2>Contact</h2>
+    <!-- TODO(Sutha): add a contact email or support page before publishing. -->
+    <p>Questions about this policy: see the support contact on the Chrome Web Store listing.</p>
+  </main>
+  <footer class="site-foot">
+    <div class="wrap">
+      <span class="muted">BRB Arcade, a Chrome extension for game breaks that end on time.</span>
+      <a href="https://sutha-p.github.io/brb-arcade/privacy.html">Privacy policy</a>
+    </div>
+  </footer>
+</body>
+</html>
