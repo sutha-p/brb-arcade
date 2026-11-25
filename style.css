@@ -50,6 +50,8 @@ a:hover { color: var(--navy-dark); }
 .btn:hover { background: var(--sky); }
 .btn-primary { background: var(--navy); color: #fff; }
 .btn-primary:hover { background: var(--navy-dark); color: #fff; }
+.btn-soon, .btn-soon:hover { background: var(--paper); color: var(--ink-soft); border-style: dashed; border-color: var(--ink-soft); cursor: default; }
+[hidden] { display: none !important; }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 18px 0; }
 
 .sheet { background: var(--paper); border: 2px solid var(--line); border-radius: var(--radius); padding: 18px 22px; margin: 18px 0; box-shadow: var(--shadow); }
